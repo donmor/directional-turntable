@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="Creative Commons Attribution-NonCommercial-NoDerivs 4.0"
+
+[[mods]]
+modId="directional_turntable"
+version="1.0.0"
+displayName="Directional Turntable"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://donmor.top/"
+authors="donmor"
+description='''
+A Minecraft mod adding a block that rotates any block on top of it.
+'''
+
+[[dependencies.directional_turntable]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

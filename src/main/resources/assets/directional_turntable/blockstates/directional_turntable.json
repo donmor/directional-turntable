@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "directional_turntable:block/directional_turntable"
+    }
+  }
+}

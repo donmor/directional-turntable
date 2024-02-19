@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "directional_turntable:blocks/directional_turntable_bottom",
+    "up": "directional_turntable:blocks/directional_turntable_top",
+    "north": "directional_turntable:blocks/directional_turntable_side",
+    "east": "directional_turntable:blocks/directional_turntable_side",
+    "south": "directional_turntable:blocks/directional_turntable_side",
+    "west": "directional_turntable:blocks/directional_turntable_side",
+    "particle": "directional_turntable:blocks/directional_turntable_bottom"
+  },
+  "render_type": "solid"
+}

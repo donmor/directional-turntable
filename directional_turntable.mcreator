@@ -1,0 +1,125 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirectionalTurntableRecipe1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "directional_turntable_recipe_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/directional_turntable/recipes/directional_turntable_recipe_1.json"
+        ]
+      }
+    },
+    {
+      "name": "DirectionalTurntable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "directional_turntable",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/directional_turntable/blockstates/directional_turntable.json",
+          "src/main/resources/assets/directional_turntable/models/item/directional_turntable.json",
+          "src/main/resources/assets/directional_turntable/models/block/directional_turntable.json",
+          "src/main/java/net/mcreator/directionalturntable/block/DirectionalTurntableBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DirectionalTurntableRedstoneOn",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "directional_turntable_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/directionalturntable/procedures/DirectionalTurntableRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DirectionalTurntableRedstoneOff",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "directional_turntable_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/directionalturntable/procedures/DirectionalTurntableRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.directional_turntable.directional_turntable": "Accurate Turntable",
+      "block.accurate_turntable.directional_turntable": "Accurate Turntable"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "directional_turntable",
+    "modName": "Directional Turntable",
+    "version": "1.0.0",
+    "description": "A Minecraft mod adding a block that rotates any block on top of it.",
+    "author": "donmor",
+    "websiteURL": "https://donmor.top/",
+    "license": "Creative Commons Attribution-NonCommercial-NoDerivs 4.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.directionalturntable",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
