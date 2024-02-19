@@ -20,10 +20,10 @@
       "registry_name": "directional_turntable",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/directionalturntable/block/DirectionalTurntableBlock.java",
           "src/main/resources/assets/directional_turntable/blockstates/directional_turntable.json",
           "src/main/resources/assets/directional_turntable/models/item/directional_turntable.json",
-          "src/main/resources/assets/directional_turntable/models/block/directional_turntable.json",
-          "src/main/java/net/mcreator/directionalturntable/block/DirectionalTurntableBlock.java"
+          "src/main/resources/assets/directional_turntable/models/block/directional_turntable.json"
         ]
       }
     },
@@ -94,8 +94,10 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.directional_turntable.directional_turntable": "Accurate Turntable",
-      "block.accurate_turntable.directional_turntable": "Accurate Turntable"
+      "block.directional_turntable.directional_turntable": "Directional Turntable"
+    },
+    "zh_cn": {
+      "block.directional_turntable.directional_turntable": "定向转台"
     }
   },
   "foldersRoot": {
